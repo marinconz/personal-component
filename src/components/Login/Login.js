@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Form, Input, Button } from 'antd'
 
-import styles from './login.module.scss'
+// Login css
+import styles from './login.module.css'
+
 import Title from '../Header/Title'
 
 
@@ -29,7 +31,7 @@ const LoginForm = ( {onValueChange, onSubmit} ) => {
           <Form.Item
               name="Username"             
           >
-              <Input  placeholder="Username" className={styles.input} onChange={handleUsername}/>
+              <Input size="large" placeholder="Username" className={styles.input} onChange={handleUsername}/>
           </Form.Item>
         
           <Form.Item
