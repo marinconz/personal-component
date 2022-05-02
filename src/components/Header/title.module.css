@@ -1,0 +1,16 @@
+.container {
+    line-height: 1.5;
+}
+.title {
+    display: block;
+    font-size: 24pt;
+    color: white;
+    text-align: initial;
+}
+
+.subtitle {
+    display: block;
+    font-size: 14pt;
+    color: white;
+    text-align: initial;
+}
